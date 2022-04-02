@@ -18,3 +18,4 @@ npm start
 ## Add Route
 Create a Ressources.Name folder in the folder modules with the 3 files. These files will be named: Name.js, NameDAO.js and NameService.js.
 Then Create a file with the name: Route.Name.js in the folder routes-v2# SyntaxMap
+# SyntaxMap
