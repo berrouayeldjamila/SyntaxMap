@@ -24,7 +24,7 @@ app.use(passport.initialize());
 
 require('./index-v2.js')(app);
 
-const server = https.createServer(app)
+const server = http.createServer(app)
 const gameServer = new Server({ server });
 
 gameServer.define('my_room', MyRoom);
