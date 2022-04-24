@@ -13,7 +13,7 @@ const { MyRoom } = require("./rooms/MyRoom");
 const { EvalMod } = require("./rooms/EvalMod");
 const { SpeedMod } = require("./rooms/SpeedMod");
 
-const urls = ['http://localhost:3000', 'https://syntaxmapfrontmain.herokuapp.com', 'https://syntaxmapfrontmain.herokuapp.com']
+const urls = ['https://syntaxmapfrontmain.herokuapp.com', 'https://syntaxmapfrontmain.herokuapp.com', 'https://syntaxmapfrontmain.herokuapp.com']
 
 app.use(cors({origin: '*'}));
 
